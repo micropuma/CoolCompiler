@@ -5,3 +5,9 @@
 * fulfill a stack machine in COOL
 * be acquaint with COOL syntax and structures
 
+## PA2
+
+* fulfill a lexer in flex
+* be acquaint with COOL syntax rules
+* be acquaint with flex grammer
+
