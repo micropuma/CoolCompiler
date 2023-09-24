@@ -1,0 +1,4 @@
+#name "./backslash.cool"
+#1 ERROR "Null pointer in string constant"
+#3 STR_CONST "\"this is still inside the string"
+#6 STR_CONST "I'm about to excape a newline \n"

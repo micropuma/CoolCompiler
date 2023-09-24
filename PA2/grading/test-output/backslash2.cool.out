@@ -1,0 +1,5 @@
+STR_CONST "I'm not going to escape this newline\n"
+STR_CONST "This is also not escaped \\\n"
+STR_CONST "This is, though \\\n"
+STR_CONST "\\"
+STR_CONST "It's fine to have this: \n in a string"

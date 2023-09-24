@@ -1,0 +1,8 @@
+26a27
+> STR_CONST "\n"
+28c29,31
+< STR_CONST "-\""
+---
+> '-'
+> LONGERROR
+> STR_CONST ""

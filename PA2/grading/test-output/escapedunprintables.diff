@@ -1,0 +1,38 @@
+1,5c1,31
+< STR_CONST "This is a tab:\t"
+< STR_CONST "This is a backspace:\b"
+< STR_CONST "This is a formfeed:\f"
+< STR_CONST "This is a carriage return:\015"
+< STR_CONST "This is an escape:\033"
+---
+> STR_CONST "This is a tab:\"\n"
+> TYPEID This
+> OBJECTID is
+> OBJECTID a
+> OBJECTID backspace
+> ':'
+> LONGERROR
+> LONGERROR
+> STR_CONST "\n"
+> TYPEID This
+> OBJECTID is
+> OBJECTID a
+> OBJECTID formfeed
+> ':'
+> LONGERROR
+> STR_CONST "\n"
+> TYPEID This
+> OBJECTID is
+> OBJECTID a
+> OBJECTID carriage
+> OBJECTID return
+> ':'
+> STR_CONST "\n"
+> TYPEID This
+> OBJECTID is
+> OBJECTID an
+> OBJECTID escape
+> ':'
+> LONGERROR
+> 
+> LONGERROR
