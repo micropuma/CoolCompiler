@@ -11,3 +11,9 @@
 * be acquaint with COOL syntax rules
 * be acquaint with flex grammer
 
+## PA3  
+
+* fulfill a parser in bison, target language is COOL
+* be acquaint with bison parsing tools
+* learn LALR recursive parsing tech and how to handle shift-reduce conflicts
+
