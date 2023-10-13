@@ -1,0 +1,5 @@
+./trickyatdispatch2.test:9: Error in static_dispatch_class: call_type mismatch
+*** binky ***
+actual_type and return type is Object Int
+./trickyatdispatch2.test:9: return_type and actual type mismatch in method: binky
+Compilation halted due to static semantic errors.

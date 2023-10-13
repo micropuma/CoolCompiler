@@ -1,0 +1,7 @@
+	-1 (list)	 List program
+	-1 (lubtest)	 LUB test using if statements
+	-1 (objectdispatchabort)	 Calling abort() method on an object
+	-1 (returntypenoexist)	 Undefined return type
+	-1 (selftypebadreturn)	 Non-conforming return type when SELF_TYPE is declared return type
+	-1 (staticdispatch)	 Simple static dispatch
+	-1 (trickyatdispatch2)	 Tricky (illegal) static dispatch

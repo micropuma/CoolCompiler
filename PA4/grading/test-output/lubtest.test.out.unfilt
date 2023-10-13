@@ -1,0 +1,4 @@
+*** h ***
+actual_type and return type is Z B
+./lubtest.test:9: return_type and actual type mismatch in method: h
+Compilation halted due to static semantic errors.

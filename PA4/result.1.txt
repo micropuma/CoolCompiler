@@ -1,0 +1,217 @@
+************************
+Now constructing ClassTable
+=============================
+<Object>
+<Int>
+<Bool>
+<IO>
+<String>
+=============================
+Successfully insert a new Class SymbolMain
+Successfully insert a new Class SymbolA
+Successfully insert a new Class SymbolB
+=============================
+<Main>
+<Object>
+<B>
+<A>
+<Int>
+<Bool>
+<IO>
+<String>
+=============================
+
+****************************
+Check for Class_inheritance correctness
+-----------------------
+no bugs in Main
+-----------------------
+-----------------------
+no bugs in A
+-----------------------
+-----------------------
+B
+A
+----
+no bugs in A
+-----------------------
+****************************
+================= start method checking! ===================
+Now checking class: Main
+add method main
+Now checking class: Object
+add method abort
+add method type_name
+add method copy
+Now checking class: B
+add method foo
+Now checking class: A
+add method foo
+Now checking class: Int
+Now checking class: Bool
+Now checking class: IO
+add method out_string
+add method out_int
+add method in_string
+add method in_int
+Now checking class: String
+add method length
+add method concat
+add method substr
+================= end method checking! ===================
+================= start method inheritance checking! ===================
+current class is Main
+get inheritance chain of Main
+inheritance chain is: Object
+Main
+Thats all for the inheritance chain
+***************************
+find method checking between parent and child
+parent: main
+child: main
+***************************
+method inheritance succeed!
+current class is Object
+get inheritance chain of Object
+inheritance chain is: Thats all for the inheritance chain
+get inheritance chain of Object
+inheritance chain is: Thats all for the inheritance chain
+get inheritance chain of Object
+inheritance chain is: Thats all for the inheritance chain
+current class is B
+get inheritance chain of B
+inheritance chain is: Object
+A
+B
+Thats all for the inheritance chain
+***************************
+find method checking between parent and child
+parent: foo
+child: foo
+***************************
+method inheritance succeed!
+***************************
+find method checking between parent and child
+parent: foo
+child: foo
+***************************
+method inheritance succeed!
+current class is A
+get inheritance chain of A
+inheritance chain is: Object
+A
+Thats all for the inheritance chain
+***************************
+find method checking between parent and child
+parent: foo
+child: foo
+***************************
+method inheritance succeed!
+current class is Int
+current class is Bool
+current class is IO
+get inheritance chain of IO
+inheritance chain is: Object
+IO
+Thats all for the inheritance chain
+***************************
+find method checking between parent and child
+parent: out_string
+child: out_string
+***************************
+method inheritance succeed!
+get inheritance chain of IO
+inheritance chain is: Object
+IO
+Thats all for the inheritance chain
+***************************
+find method checking between parent and child
+parent: out_int
+child: out_int
+***************************
+method inheritance succeed!
+get inheritance chain of IO
+inheritance chain is: Object
+IO
+Thats all for the inheritance chain
+***************************
+find method checking between parent and child
+parent: in_string
+child: in_string
+***************************
+method inheritance succeed!
+get inheritance chain of IO
+inheritance chain is: Object
+IO
+Thats all for the inheritance chain
+***************************
+find method checking between parent and child
+parent: in_int
+child: in_int
+***************************
+method inheritance succeed!
+current class is String
+get inheritance chain of String
+inheritance chain is: Object
+String
+Thats all for the inheritance chain
+***************************
+find method checking between parent and child
+parent: length
+child: length
+***************************
+method inheritance succeed!
+get inheritance chain of String
+inheritance chain is: Object
+String
+Thats all for the inheritance chain
+***************************
+find method checking between parent and child
+parent: concat
+child: concat
+***************************
+method inheritance succeed!
+get inheritance chain of String
+inheritance chain is: Object
+String
+Thats all for the inheritance chain
+***************************
+find method checking between parent and child
+parent: substr
+child: substr
+***************************
+method inheritance succeed!
+================= end method inheritance checking! ===================
+****************** check_ast_type phase ********************
+add attribute to attr_classMain
+=============== checking attr_class feature =============
+============== end attr_class feature ============
+=============== checking method_class feature =============
+=============================
+<Main>
+<Object>
+<B>
+<A>
+<Int>
+<Bool>
+<IO>
+<String>
+=============================
+======== return type: Object =============
+++++++++++++++ static_dispatch_class::check_expr() ++++++++++++++
+arriving at int type in classMain
+============== end method_class feature ============
+=============== checking method_class feature =============
+=============================
+<Main>
+<Object>
+<B>
+<A>
+<Int>
+<Bool>
+<IO>
+<String>
+=============================
+======== return type: Object =============
+arriving at no_type type in classObject
+  (core dumped)

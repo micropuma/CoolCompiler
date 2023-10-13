@@ -1,0 +1,23 @@
+Grading .....
+make: Entering directory '/home/leondou/dev/compiler/cool/assignments/PA4'
+make: Nothing to be done for 'source'.
+make: Leaving directory '/home/leondou/dev/compiler/cool/assignments/PA4'
+make: Entering directory '/home/leondou/dev/compiler/cool/assignments/PA4'
+make: 'semant' is up to date.
+make: Leaving directory '/home/leondou/dev/compiler/cool/assignments/PA4'
+=====================================================================
+submission: ..
+
+	-1 (list)	 List program
+	-1 (lubtest)	 LUB test using if statements
+	-1 (objectdispatchabort)	 Calling abort() method on an object
+	-1 (returntypenoexist)	 Undefined return type
+	-1 (selftypebadreturn)	 Non-conforming return type when SELF_TYPE is declared return type
+	-1 (staticdispatch)	 Simple static dispatch
+	-1 (trickyatdispatch2)	 Tricky (illegal) static dispatch
+=====================================================================
+You got a score of 67 out of 74.
+
+Submit code: 
+PA3-67:73fd546ffa7dfc67830c842a6c3cce1c
+

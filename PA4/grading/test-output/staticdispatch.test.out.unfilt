@@ -1,0 +1,3 @@
+./staticdispatch.test:1: Error in static_dispatch_class: call_type mismatch
+./staticdispatch.test:1: Wrong in static_dispatch_class in fromal mismatch
+Compilation halted due to static semantic errors.
