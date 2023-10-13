@@ -17,3 +17,9 @@
 * be acquaint with bison parsing tools
 * learn LALR recursive parsing tech and how to handle shift-reduce conflicts
 
+## PA4
+
+* fulfill a semantic analyzer for COOL language
+* fulfill a type system, with type checking and type inferencing
+* decorate AST tree with type information, as a helper for code gen in next phase
+
